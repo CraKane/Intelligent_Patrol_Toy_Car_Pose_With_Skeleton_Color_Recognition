@@ -1,0 +1,16 @@
+是否有人，是否有手势
+If 有人：
+	颜色识别（敌人？友军？没人？）
+	If 朋友 and 有手势：
+		按照手势左转或者右转
+	Else:
+		If footdis < 3m：
+			Backward
+		If 3.5>footdis >3:
+			Stop
+		If footdis > 3.5:
+			Forward
+Else(没人)：
+	转向函数（*）
+	直行函数
+		
